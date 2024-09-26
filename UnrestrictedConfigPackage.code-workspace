@@ -1,0 +1,72 @@
+{
+  "folders": [
+    {
+      "path": "UnrestrictedConfigPackage"
+    },
+    {
+      "path": ".AL-Go"
+    },
+    {
+      "name": "root",
+      "path": "."
+    }
+  ],
+  "settings": {
+    "[al]": {
+      "editor.wordBasedSuggestions": "allDocuments",
+      "editor.suggestSelection": "first",
+      "editor.formatOnSave": true,
+      "editor.semanticHighlighting.enabled": true
+    },
+    "editor.inlineSuggest.enabled": true,
+    "editor.inlayHints.enabled": "offUnlessPressed",
+    "editor.detectIndentation": false,
+    "editor.tabSize": 2,
+    "CRS.FileNamePattern": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+    "CRS.FileNamePatternExtensions": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+    "CRS.FileNamePatternPageCustomizations": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.PageCust.al",
+    "CRS.ObjectNamePrefix": "",
+    "CRS.ObjectNameSuffix": "NavNab",
+    "CRS.OnSaveAlFileAction": "Rename",
+    "CRS.AlSubFolderName": "src",
+    "CRS.RemovePrefixFromFilename": true,
+    "CRS.RemoveSuffixFromFilename": true,
+    "CRS.RemoveUnderscoreFromFilename": true,
+    "CRS.SkipWarningMessageOnRenameAll": true,
+    "al.enableCodeActions": true,
+    "al.inlayhints.functionReturnTypes.enabled": true,
+    "al.inlayhints.parameterNames.enabled": true,
+    "alVarHelper.ignoreALSuffix": "NavNab",
+    "editor.codeActionsOnSave": {
+      "source.fixAll": "explicit",
+    },
+    "alOutline.codeCleanupActions": [
+      "CollapseEmptyBrackets",
+      "AddApplicationAreas",
+      "AddDataClassifications",
+      "AddEnumValuesCaptions",
+      "AddMissingParentheses",
+      "FixIdentifiersCase",
+      "FixKeywordsCase",
+      "MakeFlowFieldsReadOnly",
+      "RemoveProceduresSemicolon",
+      "SortProcedures",
+      "SortProperties",
+      "SortTableFields",
+      "SortUsings",
+      "SortVariables",
+      "SortReportColumns",
+      "RemoveBeginEnd",
+      "RemoveEmptyLines",
+      "RemoveRedundantAppAreas",
+      "RemoveRedundantDataClassification",
+      "RemoveWithStatements",
+      "FormatDocument",
+      "OneStatementPerLine",
+      "RemoveEmptyTriggers",
+      "SortCustomizations",
+      "SortTriggers",
+      "TrimTrailingWhitespace"
+    ]
+  }
+}
